@@ -10,8 +10,10 @@ import os, sys
 from keras.models import Model
 from keras.layers import Input, LSTM, GRU, Dense, Embedding, Dropout
 from keras.preprocessing.text import Tokenizer
+from keras.callbacks import EarlyStopping,ModelCheckpoint,ReduceLROnPlateau
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
+from keras.optimizers import Adam
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -19,11 +21,10 @@ import keras.backend as K
 if len(K.tensorflow_backend._get_available_gpus()) > 0:
   from keras.layers import CuDNNLSTM as LSTM
   from keras.layers import CuDNNGRU as GRU
-  
-BATCH_SIZE = 64  
+ 
 EPOCHS = 100  
 LATENT_DIM = 256  
-NUM_SAMPLES = 10000  
+NUM_SAMPLES = 20000  
 MAX_SEQUENCE_LENGTH = 100
 MAX_NUM_WORDS = 20000
 EMBEDDING_DIM = 100
@@ -33,7 +34,7 @@ target_texts = []
 target_texts_inputs = [] 
 
 t = 0
-with open('hin.txt','rb') as f:
+with open('tur.txt','rb') as f:
     lines = [x.decode('utf8').strip() for x in f.readlines()]
     
 for line in lines:
@@ -124,7 +125,7 @@ encoder = LSTM(
   # dropout=0.5 
 )
 
-encoder_outputs, h, c = encoder(Dropout(0.95)(x))
+encoder_outputs, h, c = encoder(Dropout(0.5)(x))
 # encoder_outputs, h = encoder(x) #gru
 
 encoder_states = [h, c]
@@ -142,7 +143,7 @@ decoder_lstm = LSTM(
   # dropout=0.5
 )
 decoder_outputs, _, _ = decoder_lstm(
-  Dropout(0.95)(decoder_inputs_x),
+  Dropout(0.5)(decoder_inputs_x),
   initial_state=encoder_states
 )
 
@@ -153,25 +154,32 @@ decoder_outputs = decoder_dense(decoder_outputs)
 model = Model([encoder_inputs_placeholder, decoder_inputs_placeholder], decoder_outputs)
 
 model.compile(
-  optimizer='rmsprop',
+  optimizer='nadam',
   loss='categorical_crossentropy',
   metrics=['accuracy']
 )
-
-from keras.callbacks import EarlyStopping,ModelCheckpoint
+"""
+learning_rate_reduction = ReduceLROnPlateau(monitor='val_acc', 
+                                            patience=2, 
+                                            verbose=1, 
+                                            factor=0.5, 
+                                            min_lr=0.00000001)
+"""
 filepath = "weight-improvement-{epoch:02d}-{loss:4f}.hd5"
-# earlystopping = EarlyStopping(patience = 2)
+earlystopping = EarlyStopping(patience = 3)
 checkpoint = ModelCheckpoint(filepath,monitor='val_acc',verbose=1,save_best_only=True,mode='max')
-callbacks=[checkpoint]
+callbacks=[checkpoint,earlystopping]
 
-
-model.fit(
-  [encoder_inputs, decoder_inputs], decoder_targets_one_hot,
-  batch_size=BATCH_SIZE,
-  epochs=EPOCHS,
-  validation_split=0.2,
-  callbacks = callbacks
-)  
+i = 32
+while i < 1024:
+    model.fit(
+      [encoder_inputs, decoder_inputs], decoder_targets_one_hot,
+      batch_size=i,
+      epochs=EPOCHS,
+      validation_split=0.2,
+      callbacks = callbacks
+    )  
+    i += 32
 
 model.save('s2s.h5')
 
@@ -186,7 +194,7 @@ decoder_inputs_single = Input(shape=(1,))
 decoder_inputs_single_x = decoder_embedding(decoder_inputs_single)
 
 decoder_outputs, h, c = decoder_lstm(
-  Dropout(0.95)(decoder_inputs_single_x),
+  Dropout(0.9)(decoder_inputs_single_x),
   initial_state=decoder_states_inputs
 )
 # decoder_outputs, state_h = decoder_lstm(

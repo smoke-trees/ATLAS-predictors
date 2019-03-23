@@ -22,8 +22,8 @@ from keras import initializers, regularizers, constraints, optimizers, layers
 from keras.models import load_model
 
 EMBEDDING_FILE='Glove Data/glove.6B.50d.txt'
-TRAIN_DATA_FILE='Toxic Dataset/train.csv'
-TEST_DATA_FILE='Toxic Dataset/test.csv'
+TRAIN_DATA_FILE='train.csv'
+TEST_DATA_FILE='test.csv'
 
 embed_size = 50
 max_features = 20000
@@ -31,11 +31,9 @@ maxlen = 100
 
 train = pd.read_csv(TRAIN_DATA_FILE)
 test = pd.read_csv(TEST_DATA_FILE)
-realDonaldTrump_tweets = pd.read_csv("Toxic Dataset/realDonaldTrump_tweets.csv")
 
 list_sentences_train = train["comment_text"].fillna("_na_").values
 list_sentences_test = test["comment_text"].fillna("_na_").values
-realDonaldTrump = realDonaldTrump_tweets["message"].fillna("_na_").values
 list_classes = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]
 y = train[list_classes].values
 
@@ -43,11 +41,9 @@ tokenizer = Tokenizer(num_words=max_features)
 tokenizer.fit_on_texts(list(list_sentences_train))
 list_tokenized_train = tokenizer.texts_to_sequences(list_sentences_train)
 list_tokenized_test = tokenizer.texts_to_sequences(list_sentences_test)
-realDonaldTrump = tokenizer.texts_to_sequences(realDonaldTrump)
 
 X_t = pad_sequences(list_tokenized_train, maxlen=maxlen)
 X_te = pad_sequences(list_tokenized_test, maxlen=maxlen)
-realDonaldTrump = pad_sequences(realDonaldTrump, maxlen=maxlen)
 
 def get_coefs(word,*arr): 
     return word, np.asarray(arr, dtype='float32')
