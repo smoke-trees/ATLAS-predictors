@@ -88,17 +88,17 @@ callbacks = [learning_rate_reduction,EarlyStopping('val_loss', patience=3), Mode
 
 history = model.fit(X_t, y, batch_size=32, epochs=20, validation_split=0.1, callbacks=callbacks)
 
-model.save("toxic_model_alt.h5")
+model.save("toxic_model.h5")
 
 # model = load_model("toxic_model_alt.h5")
 model = load_model("toxic_model.h5")
 
 
 y_test = model.predict([X_te], batch_size=1024, verbose=1)
-sample_submission = pd.read_csv('Toxic Dataset/sample_submission.csv')
+sample_submission = pd.read_csv('sample_submission.csv')
 sample_submission[list_classes] = y_test
 sample_submission["comments"] = list_sentences_test
-sample_submission.to_csv('Toxic Dataset/sample_submission_2.csv', index=False)
+sample_submission.to_csv('sample_submission_2.csv', index=False)
 
 i = np.random.choice(len(y_test))
 

@@ -34,7 +34,7 @@ target_texts = []
 target_texts_inputs = [] 
 
 t = 0
-with open('tur.txt','rb') as f:
+with open('hin.txt','rb') as f:
     lines = [x.decode('utf8').strip() for x in f.readlines()]
     
 for line in lines:
@@ -170,16 +170,16 @@ earlystopping = EarlyStopping(patience = 3)
 checkpoint = ModelCheckpoint(filepath,monitor='val_acc',verbose=1,save_best_only=True,mode='max')
 callbacks=[checkpoint,earlystopping]
 
-i = 32
-while i < 1024:
+#i = 32
+#while i < 1024:
     model.fit(
       [encoder_inputs, decoder_inputs], decoder_targets_one_hot,
-      batch_size=i,
-      epochs=EPOCHS,
+      batch_size=64,
+      epochs=20,
       validation_split=0.2,
       callbacks = callbacks
     )  
-    i += 32
+#   i += 32
 
 model.save('s2s.h5')
 
