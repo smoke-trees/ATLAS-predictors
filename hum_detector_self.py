@@ -18,7 +18,9 @@ detector.setModelTypeAsYOLOv3()
 detector.setModelPath(os.path.join(execution_path , "yolo.h5"))
 detector.loadModel()
 
-video_path = detector.detectObjectsFromVideo(camera_input=camera,
+custom_objects = detector.CustomObjects(person=True)
+
+video_path = detector.detectCustomObjectsFromVideo(custom_objects=custom_objects,camera_input=camera,
                                 output_file_path=os.path.join(execution_path, "camera_detected_1")
-                                , frames_per_second=29, log_progress=True)
+                                , frames_per_second=12, log_progress=True)
 print(video_path)

@@ -15,8 +15,10 @@ detector.setModelTypeAsYOLOv3()
 detector.setModelPath( os.path.join(execution_path , "yolo.h5"))
 detector.loadModel()
 
-video_path = detector.detectObjectsFromVideo(input_file_path=os.path.join( execution_path, "Humans.mp4"),
-                                output_file_path=os.path.join(execution_path, "Humans_Detected_1")
+custom_objects = detector.CustomObjects(person=True)
+
+video_path = detector.detectCustomObjectsFromVideo(custom_objects=custom_objects,input_file_path=os.path.join( execution_path, "iitg.mp4"),
+                                output_file_path=os.path.join(execution_path, "iitg_Detected_1")
                                 , frames_per_second=12, log_progress=True)
-for eachObject in video_path:
-    print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
+
+print(video_path)
