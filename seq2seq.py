@@ -8,7 +8,7 @@ Created on Wed Feb 27 01:37:41 2019
 import os, sys
 
 from keras.models import Model
-from keras.layers import Input, LSTM, GRU, Dense, Embedding
+from keras.layers import Input, LSTM, GRU, Dense, Embedding, Dropout
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
@@ -123,7 +123,8 @@ encoder = LSTM(
   return_state=True,
   # dropout=0.5 
 )
-encoder_outputs, h, c = encoder(x)
+
+encoder_outputs, h, c = encoder(Dropout(0.95)(x))
 # encoder_outputs, h = encoder(x) #gru
 
 encoder_states = [h, c]
@@ -141,7 +142,7 @@ decoder_lstm = LSTM(
   # dropout=0.5
 )
 decoder_outputs, _, _ = decoder_lstm(
-  decoder_inputs_x,
+  Dropout(0.95)(decoder_inputs_x),
   initial_state=encoder_states
 )
 
@@ -157,11 +158,19 @@ model.compile(
   metrics=['accuracy']
 )
 
+from keras.callbacks import EarlyStopping,ModelCheckpoint
+filepath = "weight-improvement-{epoch:02d}-{loss:4f}.hd5"
+# earlystopping = EarlyStopping(patience = 2)
+checkpoint = ModelCheckpoint(filepath,monitor='val_acc',verbose=1,save_best_only=True,mode='max')
+callbacks=[checkpoint]
+
+
 model.fit(
   [encoder_inputs, decoder_inputs], decoder_targets_one_hot,
   batch_size=BATCH_SIZE,
   epochs=EPOCHS,
   validation_split=0.2,
+  callbacks = callbacks
 )  
 
 model.save('s2s.h5')
@@ -177,7 +186,7 @@ decoder_inputs_single = Input(shape=(1,))
 decoder_inputs_single_x = decoder_embedding(decoder_inputs_single)
 
 decoder_outputs, h, c = decoder_lstm(
-  decoder_inputs_single_x,
+  Dropout(0.95)(decoder_inputs_single_x),
   initial_state=decoder_states_inputs
 )
 # decoder_outputs, state_h = decoder_lstm(
@@ -225,7 +234,6 @@ def decode_sequence(input_seq):
     target_seq[0, 0] = idx
 
     states_value = [h, c]
-    # states_value = [h] # gru
 
   return ' '.join(output_sentence)
 
@@ -242,4 +250,12 @@ while True:
   ans = input("Continue? [Y/n]")
   if ans and ans.lower().startswith('n'):
     break
-  
+
+def custom_input(string):
+    input_seq = tokenizer_inputs.texts_to_sequences(string)
+    input_seq = pad_sequences(input_seq, maxlen=max_len_input)
+    predicted = decode_sequence(input_seq)
+    return predicted
+
+take_input = str(input())
+print(custom_input(take_input))  
