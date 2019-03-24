@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ATLAS</string>
+    <string name="device_list">Recorded events</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="timestamp_placeholder">Timestamp placeholder</string>
+    <string name="hash_placeholder">hash placeholder</string>
+    <string name="add_a_new_entry">Add a new entry</string>
+</resources>

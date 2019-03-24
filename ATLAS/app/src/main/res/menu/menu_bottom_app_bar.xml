@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/option_device_list"
+            android:icon="@drawable/ic_router"
+            android:title="@string/device_list" />
+
+        <item
+            android:id="@+id/option_add_item"
+            android:icon="@drawable/ic_note_add"
+            android:title="@string/add_a_new_entry" />
+    </group>
+</menu>
