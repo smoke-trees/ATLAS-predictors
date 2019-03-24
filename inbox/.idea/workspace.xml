@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34c8d9f1-c8b3-49a8-ad31-d13d88339e45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Election.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventdata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/atechnohazard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/atechnohazard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nyc_output/4872b8e5-161a-4e45-9867-313daed1171a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/EnergyCredits.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/EnergyCredits.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dscvit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/parentheses.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/parentheses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/printer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/printer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/typings/babel-parser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/typings/babel-parser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/template/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/literal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/template/lib/literal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/template/lib/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/template/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/conversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/conversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/inference/inferers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/inference/inferers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/hoister.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/hoister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/virtual-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/virtual-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/replacement.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/replacement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/visitors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/visitors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/asserts/generated/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/asserts/generated/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/generated/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/generated/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/clone/cloneNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/clone/cloneNode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/gatherSequenceExpressions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/gatherSequenceExpressions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/valueToNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/valueToNode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/experimental.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/experimental.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/misc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/misc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/flow/removeTypeDuplicates.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/flow/removeTypeDuplicates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/inherits.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/inherits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/removeProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/removeProperties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/generated/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/generated/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isBinding.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isBinding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isNodesEquivalent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isNodesEquivalent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isReferenced.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isReferenced.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generateTypeHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generateTypeHelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generators/generateValidators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generators/generateValidators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/utils/formatCode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/builtin-modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/code-point-at/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/code-point-at/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decamelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/decamelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/error-ex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/error-ex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/find-up/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/find-up/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fs-extra/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/globals/globals.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/globals/globals.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/globals/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/globals/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hosted-git-info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hosted-git-info/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invert-kv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/invert-kv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-arrayish/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-arrayish/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-utf8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-utf8/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/lib/coverage-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/lib/coverage-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/lib/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/lib/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-coverage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/instrumenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/instrumenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/read-coverage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/read-coverage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/source-coverage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/source-coverage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/dist/visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/istanbul-lib-instrument/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/klaw/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lcid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lcid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/load-json-file/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memorystream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/memorystream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/fixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/fixer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/number-is-nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/number-is-nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/bin/nyc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/bin/nyc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/lib/commands/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/lib/commands/merge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/lib/commands/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/lib/commands/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/lib/config-util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/lib/config-util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/lib/instrumenters/istanbul.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/lib/instrumenters/istanbul.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/lib/instrumenters/noop.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/lib/instrumenters/noop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/align-text/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/align-text/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/align-text/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/align-text/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/amdefine/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/amdefine/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/amdefine/amdefine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/amdefine/intercept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/amdefine/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/dist/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/dist/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/dist/async.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/dist/async.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/lib/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/async/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/builtin-modules/builtin-modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/builtin-modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/builtin-modules/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/builtin-modules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/builtin-modules/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/builtin-modules/static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/caching-transform/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/caching-transform/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/caching-transform/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/caching-transform/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/caching-transform/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/caching-transform/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/camelcase/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/center-align/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/center-align/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/center-align/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/center-align/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/center-align/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/example/center.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/example/meat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/test/break.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/test/idleness.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/node_modules/wordwrap/test/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/cliui/test/cliui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug-log/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug-log/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug-log/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug-log/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/lib/errname.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/lib/errname.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/enoent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/enoent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/escapeArgument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/escapeCommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/hasEmptyArgumentBug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/readShebang.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/readShebang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/resolveCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/lib/util/resolveCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/node_modules/cross-spawn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/execa/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/buffer-stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/buffer-stream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/get-stream/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/graceful-fs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/graceful-fs/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/dictionaries/nknappmeier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/handlebars.js.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.istanbul.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/code-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/code-gen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/javascript-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/javascript-compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/handlebars/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/precompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/amd/precompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/handlebars/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/precompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/cjs/precompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.amd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/dist/handlebars.runtime.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/docs/compiler-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/docs/decorators-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/code-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/code-gen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/compiler/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/handlebars/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/precompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/lib/precompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/assert-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/mini-require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/prefix-source-map.jsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/prefix-utils.jsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/suffix-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/suffix-source-map.jsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/suffix-utils.jsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/test-prefix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/build/test-suffix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/array-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/base64-vlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/binary-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/mapping-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/quick-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/source-map-consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/source-map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/source-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/lib/source-map/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/node_modules/source-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/handlebars/release-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/invert-kv/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/invert-kv/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/invert-kv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/invert-kv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/invert-kv/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/invert-kv/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-buffer/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-builtin-module/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-builtin-module/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-builtin-module/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/is-builtin-module/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/lib/coverage-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/lib/coverage-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/lib/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/lib/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-coverage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-hook/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-hook/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-hook/lib/hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-hook/lib/hook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-hook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-hook/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/file-writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/file-writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/summarizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/summarizer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/watermarks.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/watermarks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/xml-writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/lib/xml-writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-report/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/map-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/map-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/mapped.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/mapped.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/pathutils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/pathutils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/source-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/source-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/transformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/lib/transformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-lib-source-maps/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/clover/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/clover/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/cobertura/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/cobertura/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/annotator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/annotator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/assets/block-navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/assets/block-navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/assets/sorter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/assets/sorter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/insertion-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/html/insertion-text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/json-summary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/json-summary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/json/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/json/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/lcov/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/lcov/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/lcovonly/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/lcovonly/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/none/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/none/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/teamcity/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/teamcity/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/text-summary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/text-summary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/text/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/lib/text/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/istanbul-reports/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lazy-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lazy-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lazy-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lazy-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/lcid/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/longest/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/longest/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/longest/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/longest/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lru-cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/lru-cache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/lru-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/lru-cache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-hex/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-hex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-hex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-hex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-hex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/lib/md5omatic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/md5-o-matic/test/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/mem/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/normalize-package-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/normalize-package-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/normalize-package-data/lib/fixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/normalize-package-data/lib/fixer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/normalize-package-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/normalize-package-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/os-locale/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/p-limit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/p-limit/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/p-limit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/p-limit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/p-limit/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/p-limit/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/package-hash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/package-hash/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/package-hash/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/package-hash/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/package-hash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/package-hash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/repeat-string/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/repeat-string/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/repeat-string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/repeat-string/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/right-align/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/right-align/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/right-align/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/right-align/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/rimraf/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/semver/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/dist/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/array-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/source-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/source-map/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-correct/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-correct/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-correct/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-correct/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-correct/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-correct/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-exceptions/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-exceptions/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-exceptions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-exceptions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/deprecated.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/deprecated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/spdx-license-ids/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/supports-color/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/supports-color/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/supports-color/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/supports-color/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/supports-color/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/test-exclude/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/test-exclude/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/test-exclude/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/test-exclude/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/test-exclude/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/test-exclude/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/bin/extract-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/compress.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/compress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/mozilla-ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/mozilla-ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/output.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/output.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/propmangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/propmangle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/scope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/sourcemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/sourcemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/completion.sh.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/lib/completion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/lib/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/lib/usage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/lib/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/node_modules/yargs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/tools/domprops.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/tools/domprops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/tools/exports.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/tools/exports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/tools/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-js/tools/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/uglify-to-browserify/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/validate-npm-package-license/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/validate-npm-package-license/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/validate-npm-package-license/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/validate-npm-package-license/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/validate-npm-package-license/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/window-size/LICENSE-MIT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/window-size/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/window-size/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/window-size/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/write-file-atomic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/write-file-atomic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/write-file-atomic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/write-file-atomic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/write-file-atomic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/write-file-atomic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/y18n/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/y18n/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/y18n/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/y18n/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/y18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/y18n/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/lib/tokenize-arg-string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/lib/tokenize-arg-string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/node_modules/camelcase/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/node_modules/camelcase/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/node_modules/camelcase/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/node_modules/camelcase/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/command.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/command.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/levenshtein.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/levenshtein.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/usage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/lib/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/locales/nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/locales/nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/locales/nn.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/locales/nn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/locales/pirate.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/locales/pirate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/cliui/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/cliui/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/cliui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/cliui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/cliui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/find-up/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/find-up/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/find-up/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/find-up/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/locate-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/locate-path/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/locate-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/locate-path/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-limit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-limit/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-limit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-limit/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-locate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-locate/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-locate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-locate/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-try/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-try/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-try/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/node_modules/p-try/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/yargs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/node_modules/yargs/yargs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nyc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nyc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/os-locale/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/os-locale/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parse-json/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parse-json/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-exists/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-exists/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require-directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require-directory/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require-from-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require-from-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-blocking/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-blocking/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/abi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/abi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/solcjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/solcjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/soljson.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/soljson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/solc/wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/solc/wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-correct/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdx-correct/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-exceptions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdx-exceptions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-expression-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdx-expression-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-license-ids/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdx-license-ids/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-bom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-bom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/validate-npm-package-license/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validate-npm-package-license/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/which-module/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/window-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/window-size/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/y18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/y18n/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/inbox.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/inbox.test.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/inbox$Election.dat" NAME="Election Coverage Results" MODIFIED="1550770097037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/inbox$Inbox.dat" NAME="Inbox Coverage Results" MODIFIED="1546789741127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="432" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="inbox" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+              <folding>
+                <element signature="e#628#670#0" />
+                <element signature="e#919#1714#0" />
+                <element signature="e#1442#1663#0" />
+                <element signature="e#1761#2267#0" />
+                <element signature="e#2321#2528#0" />
+                <element signature="e#2584#2960#0" />
+                <element signature="e#3018#3404#0" />
+                <element signature="e#3710#3718#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Solidity Contract" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/contracts/inbox.sol" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/contracts/Inbox.sol" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/dscvit.js" />
+        <option value="$PROJECT_DIR$/contracts/EnergyCredits.sol" />
+        <option value="$PROJECT_DIR$/contracts/Election.sol" />
+        <option value="$PROJECT_DIR$/test/inbox.test.js" />
+        <option value="$PROJECT_DIR$/compile.js" />
+        <option value="$PROJECT_DIR$/deploy.js" />
+        <option value="$PROJECT_DIR$/contracts/EventData.sol" />
+        <option value="$PROJECT_DIR$/eventdata.js" />
+        <option value="$PROJECT_DIR$/web3.js" />
+        <option value="$PROJECT_DIR$/vendor.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="530" />
+    <option name="width" value="1380" />
+    <option name="height" value="998" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="inbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inbox" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inbox" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/routes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Mocha.Election.should add device data">
+    <configuration name="Election" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/inbox.test.js</test-file>
+      <test-names>
+        <name value="Election" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Election.should add device data" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/inbox.test.js</test-file>
+      <test-names>
+        <name value="Election" />
+        <name value="should add device data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Election.should be able to vote" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/inbox.test.js</test-file>
+      <test-names>
+        <name value="Election" />
+        <name value="should be able to vote" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Election.should not be able to vote twice" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/inbox.test.js</test-file>
+      <test-names>
+        <name value="Election" />
+        <name value="should not be able to vote twice" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Election.should reset the contract" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/inbox.test.js</test-file>
+      <test-names>
+        <name value="Election" />
+        <name value="should reset the contract" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Election.should add device data" />
+        <item itemvalue="Mocha.Election" />
+        <item itemvalue="Mocha.Election.should be able to vote" />
+        <item itemvalue="Mocha.Election.should reset the contract" />
+        <item itemvalue="Mocha.Election.should not be able to vote twice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c8d9f1-c8b3-49a8-ad31-d13d88339e45" name="Default Changelist" comment="" />
+      <created>1546683678862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546683678862</updated>
+      <workItem from="1546683682540" duration="85000" />
+      <workItem from="1546762228858" duration="214000" />
+      <workItem from="1546762463988" duration="524000" />
+      <workItem from="1546763024735" duration="211000" />
+      <workItem from="1546763262579" duration="13312000" />
+      <workItem from="1547013798281" duration="4238000" />
+      <workItem from="1547126287243" duration="3216000" />
+      <workItem from="1547264890122" duration="8518000" />
+      <workItem from="1547280277204" duration="2816000" />
+      <workItem from="1547314094734" duration="1198000" />
+      <workItem from="1548349396980" duration="4008000" />
+      <workItem from="1548365218771" duration="414000" />
+      <workItem from="1548365657940" duration="697000" />
+      <workItem from="1548395528135" duration="4202000" />
+      <workItem from="1548434064129" duration="653000" />
+      <workItem from="1550768104684" duration="2408000" />
+      <workItem from="1550844117507" duration="599000" />
+      <workItem from="1550856228269" duration="6281000" />
+      <workItem from="1550873050575" duration="106000" />
+      <workItem from="1550873653449" duration="1723000" />
+      <workItem from="1551005201210" duration="300000" />
+      <workItem from="1551083637397" duration="113000" />
+      <workItem from="1553319308771" duration="24501000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add procfile">
+      <created>1547281065331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547281065331</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix port stuff on heroku">
+      <created>1547281746948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547281746948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Election - 2019.03.23 at 11h 35m 08s.xml">
+      <configuration name="Election" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 11h 40m 33s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 11h 41m 10s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 11h 41m 28s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 11h 41m 47s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 14h 32m 46s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 14h 33m 56s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 14h 34m 11s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 14h 34m 27s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Election_should_add_device_data - 2019.03.23 at 14h 34m 43s.xml">
+      <configuration name="Election.should add device data" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80337000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="31" width="1920" height="982" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.50596255" side_tool="true" weight="0.17966281" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49403748" visible="true" weight="0.17966281" />
+      <window_info id="npm" order="2" sideWeight="0.50958467" side_tool="true" weight="0.1800948" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996353" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50316125" side_tool="true" weight="0.30851063" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49683878" visible="true" weight="0.30614656" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3326226" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add procfile" />
+    <MESSAGE value="Fix port stuff on heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix port stuff on heroku" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/contracts/inbox.sol" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/Inbox.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/solc/soljson.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dscvit.js" />
+    <entry file="file://$PROJECT_DIR$/contracts/EnergyCredits.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/Election.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/inbox.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/web3-core-method/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="363" column="45" selection-start-line="363" selection-start-column="45" selection-end-line="363" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#485#892#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.nyc_output/14f01cbf-9c3a-4bab-a937-d9f88ba913f9.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/EventData.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+          <folding>
+            <element signature="e#628#670#0" />
+            <element signature="e#919#1714#0" />
+            <element signature="e#1442#1663#0" />
+            <element signature="e#1761#2267#0" />
+            <element signature="e#2321#2528#0" />
+            <element signature="e#2584#2960#0" />
+            <element signature="e#3018#3404#0" />
+            <element signature="e#3710#3718#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
