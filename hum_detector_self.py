@@ -24,3 +24,4 @@ video_path = detector.detectCustomObjectsFromVideo(custom_objects=custom_objects
                                 output_file_path=os.path.join(execution_path, "camera_detected_1")
                                 , frames_per_second=12, log_progress=True)
 print(video_path)
+camera.release()

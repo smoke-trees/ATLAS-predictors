@@ -125,7 +125,7 @@ encoder = LSTM(
   # dropout=0.5 
 )
 
-encoder_outputs, h, c = encoder(Dropout(0.5)(x))
+encoder_outputs, h, c = encoder(x)
 # encoder_outputs, h = encoder(x) #gru
 
 encoder_states = [h, c]
@@ -143,7 +143,7 @@ decoder_lstm = LSTM(
   # dropout=0.5
 )
 decoder_outputs, _, _ = decoder_lstm(
-  Dropout(0.5)(decoder_inputs_x),
+  decoder_inputs_x,
   initial_state=encoder_states
 )
 
@@ -167,16 +167,16 @@ learning_rate_reduction = ReduceLROnPlateau(monitor='val_acc',
 """
 filepath = "weight-improvement-{epoch:02d}-{loss:4f}.hd5"
 earlystopping = EarlyStopping(patience = 3)
-checkpoint = ModelCheckpoint(filepath,monitor='val_acc',verbose=1,save_best_only=True,mode='max')
-callbacks=[checkpoint,earlystopping]
+checkpoint = ModelCheckpoint(filepath,monitor='acc',verbose=1,save_best_only=True,mode='max')
+callbacks=[checkpoint]
 
 #i = 32
 #while i < 1024:
-    model.fit(
+model.fit(
       [encoder_inputs, decoder_inputs], decoder_targets_one_hot,
-      batch_size=64,
-      epochs=20,
-      validation_split=0.2,
+      batch_size=32,
+      epochs=100,
+      validation_split=0.1,
       callbacks = callbacks
     )  
 #   i += 32
@@ -194,7 +194,7 @@ decoder_inputs_single = Input(shape=(1,))
 decoder_inputs_single_x = decoder_embedding(decoder_inputs_single)
 
 decoder_outputs, h, c = decoder_lstm(
-  Dropout(0.9)(decoder_inputs_single_x),
+  decoder_inputs_single_x,
   initial_state=decoder_states_inputs
 )
 # decoder_outputs, state_h = decoder_lstm(
