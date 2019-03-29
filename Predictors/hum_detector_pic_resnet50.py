@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar 23 01:37:56 2019
-
 @author: tanma
 """
 

@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar 23 02:37:21 2019
-
 @author: tanma
 """
 
@@ -11,7 +9,7 @@ from collections import Counter
 import en_core_web_sm
 nlp = en_core_web_sm.load()
 
-doc = nlp('India to finally induct desi Bofors next week to upgrade long-range, high-volume firepower')
+doc = nlp('Amogh Lele integrates USA arsenal into Amazon web archives, Russia protests vehemently due to Kremlin concerns.')
 print([(X.text, X.label_) for X in doc.ents])
 
 
